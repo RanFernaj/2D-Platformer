@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2792866053509259428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2792866053509259430}
+  - component: {fileID: 2792866053509259431}
+  - component: {fileID: 4969212893501861993}
+  - component: {fileID: 3059846418870266148}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2792866053509259430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2792866053509259428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 394.51477, y: 201.83014, z: 1.9198691}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2792866053509259431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2792866053509259428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c94023aa415f13468388dbf210ee58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4969212893501861993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2792866053509259428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b669793b7f1e249b2d6a1b26794539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3059846418870266148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2792866053509259428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3388df88fd281e045900627e9d977d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioObject: {fileID: 7756967356468628939, guid: 2d1bcd3bd28a5e94187561c137b9a720, type: 3}
+  footSteps:
+  - {fileID: 8300000, guid: 24f201c2d8c2bdb48b7e435bdf4175ff, type: 3}
+  - {fileID: 8300000, guid: f71a1a147c3c85c45a1a021a40ffd91a, type: 3}
+  ladderSteps:
+  - {fileID: 8300000, guid: bf6b1b6cd49b2e947b28890d7d8a86cf, type: 3}
+  jumpAudio:
+  - {fileID: 8300000, guid: a86f15cd496dc2f428d04db54d7bda40, type: 3}
+  deathAudio:
+  - {fileID: 8300000, guid: e3e53789650a4824f82b3a74d0db7e90, type: 3}
+  groundedAudio:
+  - {fileID: 8300000, guid: 79a0595ef2589f040b1587d950f30974, type: 3}
+  ceilingedAudio:
+  - {fileID: 8300000, guid: 79a0595ef2589f040b1587d950f30974, type: 3}
+  flagRaisedAudio:
+  - {fileID: 8300000, guid: 93f83b6bc79b12a4991a7a26f58dd6f3, type: 3}
+  sqiushAudio:
+  - {fileID: 8300000, guid: 290a98d15f8d72f4e9911c795854d755, type: 3}
+  openDoorAudio:
+  - {fileID: 8300000, guid: 3d0401b84a920c54c822b5d1f39fae54, type: 3}
+  keyClips:
+  - {fileID: 8300000, guid: 93f83b6bc79b12a4991a7a26f58dd6f3, type: 3}
+  coinClips:
+  - {fileID: 8300000, guid: 7b50e005984f1a241be594b27cae7144, type: 3}
